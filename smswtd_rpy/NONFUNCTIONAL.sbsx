@@ -12,10 +12,19 @@
 			<_id type="a">GUID ba1fc7e4-0b3b-4bba-b39d-33821f4e3f58</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">NONFUNCTIONAL</_name>
-			<_modifiedTimeWeak type="a">12.15.2024::19:16:32</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.15.2024::19:16:32</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.16.2024::11:3:20</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\REQUIREMENTS.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::ANALYSIS::REQUIREMENTS</_hsubsystem>
+					<_hname type="a">REQUIREMENTS_PKG</_hname>
+					<_hid type="a">GUID 41b03f65-26b7-44ac-8f5a-2e898a1b236b</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">12.16.2024::11:3:20</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">12.15.2024::19:16:32</weakCGTime>
+			<weakCGTime type="a">12.16.2024::11:3:20</weakCGTime>
 			<strongCGTime type="a">12.12.2024::14:54:5</strongCGTime>
 			<_defaultComposite type="s">GUID 1dad38f8-4bdc-434a-bdb8-1cd00f22a580</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -3619,3 +3628,4 @@ seamless alert/notification publishing within  &lt; 10 secs.\par%0D
 
 <INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
 </RhapsodyArchive>
+
