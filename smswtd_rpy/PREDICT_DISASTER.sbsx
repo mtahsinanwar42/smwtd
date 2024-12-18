@@ -12,7 +12,7 @@
 			<_id type="a">GUID 60c5b18b-d17e-4932-a53b-6fe93e476dc5</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">PREDICT_DISASTER</_name>
-			<_modifiedTimeWeak type="a">12.17.2024::14:41:46</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.18.2024::13:22:41</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -22,16 +22,15 @@
 					<_hid type="a">GUID 0e90444c-0640-4931-b259-a57ef4b7cd54</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.17.2024::14:41:46</_modifiedTime>
+			<_modifiedTime type="a">12.18.2024::13:22:41</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">12.17.2024::14:41:46</weakCGTime>
+			<weakCGTime type="a">12.18.2024::13:22:41</weakCGTime>
 			<strongCGTime type="a">12.16.2024::9:49:39</strongCGTime>
 			<_defaultComposite type="s">GUID 72ce4ea6-32b0-431a-948f-8e482c9d1c07</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 904b4221-103a-4b0c-83e0-0668a10b5b73</value>
-				<value>GUID 086df4a2-5841-4a4d-85f4-6796b160705e</value>
 				<value>GUID 61f653c0-6cbc-4941-9b30-01b775f12703</value>
 				<value>GUID 72ce4ea6-32b0-431a-948f-8e482c9d1c07</value>
 			</AggregatesList>
@@ -40,8 +39,8 @@
 			<_id type="a">GUID 904b4221-103a-4b0c-83e0-0668a10b5b73</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">PredictDisaster</_name>
-			<_modifiedTimeWeak type="a">12.17.2024::14:35:25</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.17.2024::14:35:25</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.18.2024::13:9:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.18.2024::13:9:29</_modifiedTime>
 			<_lastID type="a">5</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The SMSWTD shall correctly predict the upcoming disasters.\par%0D
@@ -56,8 +55,8 @@
 			<_id type="a">GUID 16ec40ef-39d3-4f20-8689-8f90c0f12e08</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">CalculateWeightedPrediction</_name>
-			<_modifiedTimeWeak type="a">12.17.2024::14:35:25</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.17.2024::14:35:25</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.18.2024::13:9:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.18.2024::13:9:29</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The SMSWTD shall be capable of calculating the weighted prediction (probability) of disasters.\par%0D
@@ -66,6 +65,7 @@
 			<reqID type="a">17</reqID>
 			<AggregatesList type="e">
 				<value>GUID 7dc3d90d-b74f-41d2-a870-248c2ba24d32</value>
+				<value>GUID 086df4a2-5841-4a4d-85f4-6796b160705e</value>
 			</AggregatesList>
 		</IRequirement>
 		<IRequirement type="e">
@@ -81,46 +81,16 @@
 			<_id type="a">GUID 086df4a2-5841-4a4d-85f4-6796b160705e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">EnsureAccuracy</_name>
-			<_modifiedTimeWeak type="a">12.17.2024::14:35:25</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.17.2024::14:35:25</_modifiedTime>
+			<OwnedDependencies type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</OwnedDependencies>
+			<_modifiedTimeWeak type="a">12.18.2024::13:9:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.18.2024::13:9:29</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<_body type="a">The SMSWTD shall ensure more than 90%25 accuracy of the calculation of disaster prediction</_body>
 			<reqID type="a">74</reqID>
-			<AggregatesList type="e">
-				<value>GUID f2366091-7b6a-43da-a7b0-0faaaf78be65</value>
-			</AggregatesList>
 		</IRequirement>
-		<IDependency type="e">
-			<_id type="a">GUID f2366091-7b6a-43da-a7b0-0faaaf78be65</_id>
-			<_myState type="a">2048</_myState>
-			<_name type="a">CalculateWeightedPrediction</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-							<_hname type="a">derive</_hname>
-							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">12.16.2024::13:9:36</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2024::13:9:36</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IRequirement</_hm2Class>
-					<_hid type="a">GUID 16ec40ef-39d3-4f20-8689-8f90c0f12e08</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_dependent type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IRequirement</_hm2Class>
-					<_hid type="a">GUID 086df4a2-5841-4a4d-85f4-6796b160705e</_hid>
-				</INObjectHandle>
-			</_dependent>
-		</IDependency>
 		<IDiagram type="e">
 			<_id type="a">GUID 61f653c0-6cbc-4941-9b30-01b775f12703</_id>
 			<_myState type="a">8192</_myState>
@@ -324,8 +294,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.17.2024::14:41:51</_modifiedTime>
-			<_lastModifiedTime type="a">12.17.2024::14:41:51</_lastModifiedTime>
+			<_modifiedTime type="a">12.18.2024::13:22:49</_modifiedTime>
+			<_lastModifiedTime type="a">12.18.2024::13:22:49</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -388,8 +358,8 @@
 				<value>GUID 2f8aac03-3ce8-4b39-adc2-b9399fb8fbac</value>
 				<value>GUID 8467cb7a-8004-4cd6-80ca-8496412e728f</value>
 				<value>GUID ad890fca-20d9-4a36-8545-96ac77a8b8c0</value>
-				<value>GUID 4afdcfa5-097a-47bc-b47f-cc0dbc01b8da</value>
-				<value>GUID 80a98ce2-f92c-4c37-b5b1-8fbdd0ee53ec</value>
+				<value>GUID 23387b33-4bb4-4efd-982d-514e2b01aa41</value>
+				<value>GUID 85f87146-700c-4a82-a661-7075314e1739</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIClass type="e">
@@ -474,7 +444,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">2.63889 0 0 4.79545 20 20 </m_transform>
+			<m_transform type="a">2.83333 0 0 4.42424 20 20 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -655,7 +625,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.184502 0 0 0.136388 169 262.655 </m_transform>
+			<m_transform type="a">0.184502 0 0 0.136388 303 262.655 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -747,7 +717,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 270 228  402 228  </m_arrow>
+			<m_arrow type="a">2 404 231  402 231  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -811,7 +781,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.184502 0 0 0.109111 50 451.524 </m_transform>
+			<m_transform type="a">0.184502 0 0 0.109111 161 474.524 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -903,7 +873,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 150 426  269 426  </m_arrow>
+			<m_arrow type="a">2 261 449  403 449  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -911,7 +881,7 @@
 			<m_TargetPort type="a">542 1095 </m_TargetPort>
 		</CGIContainArrow>
 		<CGIAnnotation type="e">
-			<_id type="a">GUID 4afdcfa5-097a-47bc-b47f-cc0dbc01b8da</_id>
+			<_id type="a">GUID 23387b33-4bb4-4efd-982d-514e2b01aa41</_id>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
@@ -967,7 +937,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.154059 0 0 0.156057 369 472.118 </m_transform>
+			<m_transform type="a">0.153137 0 0 0.109116 456 474.518 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -985,47 +955,43 @@
 					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_AdditionalLabel>
-			<m_bFramesetModified type="a">1</m_bFramesetModified>
 			<m_polygon type="a">4 0 3  0 1095  1084 1095  1084 3  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=24%25,76%25&gt;
+			<frameset type="a">&lt;frameset rows=30%25,70%25&gt;
 &lt;frame name=IDTextCompartment&gt;
 &lt;frame name=SpecificationTextCompartment&gt;</frameset>
 			<_iTempdisplayTextFlag type="a">1</_iTempdisplayTextFlag>
 			<m_bIsBoxStyle type="a">1</m_bIsBoxStyle>
 			<AggregatesList type="e">
-				<value>GUID 3f5e9163-d60e-4533-8b17-e3e0e08198a5</value>
-				<value>GUID 6c3872ca-f3d2-4028-94eb-3b26ecadd69e</value>
+				<value>GUID 9c47be9f-f8d2-4cb1-b417-83399d5287c1</value>
+				<value>GUID 7e3f1c1a-53e1-4273-9c7f-c7d266641221</value>
 			</AggregatesList>
 		</CGIAnnotation>
 		<CGICompartment type="e">
-			<_id type="a">GUID 3f5e9163-d60e-4533-8b17-e3e0e08198a5</_id>
+			<_id type="a">GUID 9c47be9f-f8d2-4cb1-b417-83399d5287c1</_id>
 			<m_name type="a">ID</m_name>
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
 		</CGICompartment>
 		<CGICompartment type="e">
-			<_id type="a">GUID 6c3872ca-f3d2-4028-94eb-3b26ecadd69e</_id>
+			<_id type="a">GUID 7e3f1c1a-53e1-4273-9c7f-c7d266641221</_id>
 			<m_name type="a">Specification</m_name>
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
 		</CGICompartment>
-		<CGIInheritance type="e">
-			<_id type="a">GUID 80a98ce2-f92c-4c37-b5b1-8fbdd0ee53ec</_id>
-			<m_type type="a">128</m_type>
+		<CGIContainArrow type="e">
+			<_id type="a">GUID 85f87146-700c-4a82-a661-7075314e1739</_id>
+			<m_type type="a">204</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
-					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hid type="a">GUID f2366091-7b6a-43da-a7b0-0faaaf78be65</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">CalculateWeightedPrediction</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1040,16 +1006,15 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">4104</m_drawBehavior>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID 4afdcfa5-097a-47bc-b47f-cc0dbc01b8da</m_pSource>
+			<m_pSource type="s">GUID 23387b33-4bb4-4efd-982d-514e2b01aa41</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
 			<m_pTarget type="s">GUID 5bdd8904-96ab-4db8-b715-5ce2c93c0827</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">derive</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1064,14 +1029,13 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
+			<m_arrow type="a">1 403 535  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">448 -1 </m_SourcePort>
-			<m_TargetPort type="a">775 1095 </m_TargetPort>
-			<m_ShowName type="a">0</m_ShowName>
-			<m_ShowStereotype type="a">1</m_ShowStereotype>
-		</CGIInheritance>
+			<m_line_style type="a">2</m_line_style>
+			<m_SourcePort type="a">0 554 </m_SourcePort>
+			<m_TargetPort type="a">542 1095 </m_TargetPort>
+		</CGIContainArrow>
 		<IClass type="e">
 			<_id type="a">GUID 72ce4ea6-32b0-431a-948f-8e482c9d1c07</_id>
 			<_myState type="a">40960</_myState>
