@@ -9,31 +9,35 @@
 	
 	<RHAPSODY-MODEL>
 	<ISubsystem type="e">
-			<_id type="a">GUID 4ecf28af-3fcb-4c01-bc01-50540391694c</_id>
+			<_id type="a">GUID efe121b9-aa3c-48d7-841a-24ca7572248c</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">DESIGN</_name>
-			<_modifiedTimeWeak type="a">12.19.2024::10:3:20</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.19.2024::10:3:20</_modifiedTime>
-			<weakCGTime type="a">12.19.2024::10:3:20</weakCGTime>
-			<strongCGTime type="a">12.15.2024::19:36:39</strongCGTime>
-			<_defaultComposite type="s">GUID 635c3625-2b78-4ff8-8dbb-ddd52a886af9</_defaultComposite>
+			<_name type="a">BDD_DATA_ACCESS_GATEWAY</_name>
+			<_modifiedTimeWeak type="a">12.19.2024::10:4:5</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\BDD.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::DESIGN::BDD</_hsubsystem>
+					<_hname type="a">SMSWTD_BDD_PKG</_hname>
+					<_hid type="a">GUID ac645f20-5b8a-41e6-a03f-28811efa4fa8</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">12.19.2024::10:4:5</_modifiedTime>
+			<weakCGTime type="a">12.19.2024::10:4:5</weakCGTime>
+			<strongCGTime type="a">12.19.2024::10:0:0</strongCGTime>
+			<_defaultComposite type="s">GUID e4113ade-d4c7-4ebf-bb8c-9232eefcc39d</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
-				<value>GUID b63209d4-ff8f-4190-860a-75e2b7af4b3d</value>
-				<value>GUID 635c3625-2b78-4ff8-8dbb-ddd52a886af9</value>
+				<value>GUID e4113ade-d4c7-4ebf-bb8c-9232eefcc39d</value>
 			</AggregatesList>
 		</ISubsystem>
-		<ISubsystem type="e">
-			<fileName type="a">BDD</fileName>
-			<_id type="a">GUID b63209d4-ff8f-4190-860a-75e2b7af4b3d</_id>
-		</ISubsystem>
 		<IClass type="e">
-			<_id type="a">GUID 635c3625-2b78-4ff8-8dbb-ddd52a886af9</_id>
+			<_id type="a">GUID e4113ade-d4c7-4ebf-bb8c-9232eefcc39d</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
