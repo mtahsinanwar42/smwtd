@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>*</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<CGEMdiWorkspace type="e">
+			<stubList type="c">
+				<IRPYRawContainer type="e">
+					<value>GUID 6e99c3be-5caf-480a-a4c3-c79ada8ab6e2</value>
+					<value>GUID 5b73fb72-4de0-4fdb-b5cd-f22f19a22c80</value>
+					<value>GUID 89f8006b-f530-4505-84ab-6004a7b8d7bb</value>
+				</IRPYRawContainer>
+			</stubList>
+			<isLoadOnDemand type="a">0</isLoadOnDemand>
+			<myViewsWithID type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</myViewsWithID>
+			<_fullName type="a">C:\Users\20245161\Documents\smwtd\smswtda</_fullName>
+			<m_SearchScopeList type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</m_SearchScopeList>
+			<bUsingBrowserCustomView type="a">0</bUsingBrowserCustomView>
+			<bApplyOnDiagrams type="a">0</bApplyOnDiagrams>
+			<liCustomViewIDs type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</liCustomViewIDs>
+			<mapOslcRmCollections type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</mapOslcRmCollections>
+			<favoritesItem type="e">
+				<generation type="a">0</generation>
+				<name type="a">Favorites</name>
+				<idOrFolder type="a">folder-expanded</idOrFolder>
+			</favoritesItem>
+			
+			<favoritesItem type="e">
+				<generation type="a">1</generation>
+				<name type="a">(U) SERVICE_UCS_COLLECT_AND_PROCESS_DATA</name>
+				<idOrFolder type="a">#startHnd# INObjectHandle 
+	- _m2Class = &quot;IUCDiagram&quot;#hndSem#
+	- _filename = &quot;C:\\Users\\20245161\\Documents\\smwtd\\smswtda_rpy\\SMSWTD.sbsx&quot;#hndSem#
+	- _subsystem = &quot;SMSWTD::SERVICES_UCS::SERVICE_UCS_COLLECT_AND_PROCESS_DATA&quot;#hndSem#
+	- _name = &quot;SERVICE_UCS_COLLECT_AND_PROCESS_DATA&quot;#hndSem#
+	- _id = GUID a123ea78-0d94-4046-95db-95917f1c2798#hndSem#
+#endHnd#</idOrFolder>
+			</favoritesItem>
+			
+		</CGEMdiWorkspace>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

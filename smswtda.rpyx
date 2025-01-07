@@ -290,7 +290,7 @@
 				</Subjects>
 			</IPropertyContainer>
 			</_properties>
-			<_name type="a">smswtd</_name>
+			<_name type="a">smswtda</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					
@@ -433,7 +433,7 @@
 			<_id type="a">GUID 89f8006b-f530-4505-84ab-6004a7b8d7bb</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">SMSWTD</fileName>
+			<fileName type="a">SMSWTDA</fileName>
 			<_id type="a">GUID 5b73fb72-4de0-4fdb-b5cd-f22f19a22c80</_id>
 		</ISubsystem>
 		<IDiagram type="e">
