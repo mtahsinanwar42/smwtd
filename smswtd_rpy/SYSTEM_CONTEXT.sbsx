@@ -12,10 +12,10 @@
 			<_id type="a">GUID 8d963b25-1caa-45cc-8933-944bf718c54b</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SYSTEM_CONTEXT</_name>
-			<_modifiedTimeWeak type="a">12.17.2024::15:8:50</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.17.2024::15:8:50</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.7.2025::13:21:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.7.2025::13:21:7</_modifiedTime>
 			<_lastID type="a">29</_lastID>
-			<weakCGTime type="a">12.17.2024::15:8:50</weakCGTime>
+			<weakCGTime type="a">1.7.2025::13:21:7</weakCGTime>
 			<strongCGTime type="a">12.16.2024::20:31:11</strongCGTime>
 			<_defaultComposite type="s">GUID c3fdd1af-97d7-4283-8069-9339b44a74f3</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -117,6 +117,164 @@
 													<_Name type="a">Line.LineColor</_Name>
 													<_Value type="a">128,128,128</_Value>
 													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Block</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">DefaultSize</_Name>
+													<_Value type="a">0,34,84,148</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Fill.FillColor</_Name>
+													<_Value type="a">255,255,255</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font@Child.AttributeListCompartment</_Name>
+													<_Value type="a">Tahoma%008%00NoBold%00NoItalic</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font@Child.OperationListCompartment</_Name>
+													<_Value type="a">Tahoma%008%00NoBold%00NoItalic</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font@Child.PartListCompartment</_Name>
+													<_Value type="a">Tahoma%008%00NoBold%00NoItalic</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font@Child.Template Params</_Name>
+													<_Value type="a">Tahoma%008%00NoBold%00NoItalic</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Italic@Child.AttributeListCompartment</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Italic@Child.OperationListCompartment</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Italic@Child.PartListCompartment</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Italic@Child.Template Params</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size@Child.AttributeListCompartment</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size@Child.NameCompartment@Stereotype</_Name>
+													<_Value type="a">7</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size@Child.OperationListCompartment</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size@Child.PartListCompartment</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size@Child.Template Params</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Child.AttributeListCompartment</_Name>
+													<_Value type="a">400</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Child.NameCompartment@Name</_Name>
+													<_Value type="a">700</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Child.OperationListCompartment</_Name>
+													<_Value type="a">400</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Child.PartListCompartment</_Name>
+													<_Value type="a">400</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Child.Template Params</_Name>
+													<_Value type="a">400</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">109,163,217</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineStyle</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
 												</IProperty>
 												
 												<IProperty type="e">
@@ -284,8 +442,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.17.2024::12:57:32</_modifiedTime>
-			<_lastModifiedTime type="a">12.17.2024::12:57:32</_lastModifiedTime>
+			<_modifiedTime type="a">1.7.2025::13:21:7</_modifiedTime>
+			<_lastModifiedTime type="a">1.7.2025::13:21:7</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -3621,7 +3779,6 @@
 			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
 			<m_sourceRole type="p">
 				<CGIText type="e">
-					<m_str type="a">itsOrganization</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -3638,7 +3795,6 @@
 			</m_sourceRole>
 			<m_targetRole type="p">
 				<CGIText type="e">
-					<m_str type="a">itsSMSWTD</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -4070,8 +4226,8 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD::SERVICES_UCS</_hsubsystem>
+					<_hfilename type="a">.\SERVICE_UCS_SEND_DATA_TO_EXTERNAL_SYSTEMS.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::SERVICES_UCS::SERVICE_UCS_SEND_DATA_TO_EXTERNAL_SYSTEMS</_hsubsystem>
 					<_hname type="a">Authorize</_hname>
 					<_hid type="a">GUID 95b2efb8-9f83-4c84-9759-140225fc74d6</_hid>
 				</IClassifierHandle>
@@ -4079,8 +4235,8 @@
 			<_inverse type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD::SERVICES_UCS</_hsubsystem>
+					<_hfilename type="a">.\SERVICE_UCS_SEND_DATA_TO_EXTERNAL_SYSTEMS.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::SERVICES_UCS::SERVICE_UCS_SEND_DATA_TO_EXTERNAL_SYSTEMS</_hsubsystem>
 					<_hclass type="a">Authorize</_hclass>
 					<_hname type="a">itsCloud</_hname>
 					<_hid type="a">GUID 046aff28-3770-459e-83d8-002c02972d86</_hid>
@@ -4099,8 +4255,8 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD::SERVICES_UCS</_hsubsystem>
+					<_hfilename type="a">.\SERVICE_UCS_COLLECT_AND_PROCESS_DATA.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::SERVICES_UCS::SERVICE_UCS_COLLECT_AND_PROCESS_DATA</_hsubsystem>
 					<_hname type="a">StoreDataInDB</_hname>
 					<_hid type="a">GUID 5a0ef53d-1b37-4005-8dfb-c1704e186551</_hid>
 				</IClassifierHandle>
@@ -4108,8 +4264,8 @@
 			<_inverse type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD::SERVICES_UCS</_hsubsystem>
+					<_hfilename type="a">.\SERVICE_UCS_COLLECT_AND_PROCESS_DATA.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::SERVICES_UCS::SERVICE_UCS_COLLECT_AND_PROCESS_DATA</_hsubsystem>
 					<_hclass type="a">StoreDataInDB</_hclass>
 					<_hname type="a">itsCloud</_hname>
 					<_hid type="a">GUID 878eb8b5-460b-4670-8d2e-1cc26050046b</_hid>
@@ -4187,8 +4343,8 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD::SERVICES_UCS</_hsubsystem>
+					<_hfilename type="a">.\SERVICE_UCS_COLLECT_AND_PROCESS_DATA.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::SERVICES_UCS::SERVICE_UCS_COLLECT_AND_PROCESS_DATA</_hsubsystem>
 					<_hname type="a">GetSensingData</_hname>
 					<_hid type="a">GUID 2d2aab70-6694-463c-8917-ee0239c196b1</_hid>
 				</IClassifierHandle>
@@ -4196,8 +4352,8 @@
 			<_inverse type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD::SERVICES_UCS</_hsubsystem>
+					<_hfilename type="a">.\SERVICE_UCS_COLLECT_AND_PROCESS_DATA.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::SERVICES_UCS::SERVICE_UCS_COLLECT_AND_PROCESS_DATA</_hsubsystem>
 					<_hclass type="a">GetSensingData</_hclass>
 					<_hname type="a">itsSatelite</_hname>
 					<_hid type="a">GUID 4a75d07d-9326-4cf0-866f-bac5548a8e88</_hid>
@@ -4275,8 +4431,8 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD::SERVICES_UCS</_hsubsystem>
+					<_hfilename type="a">.\SERVICE_UCS_COLLECT_AND_PROCESS_DATA.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::SERVICES_UCS::SERVICE_UCS_COLLECT_AND_PROCESS_DATA</_hsubsystem>
 					<_hname type="a">GetSensingData</_hname>
 					<_hid type="a">GUID 2d2aab70-6694-463c-8917-ee0239c196b1</_hid>
 				</IClassifierHandle>
@@ -4284,8 +4440,8 @@
 			<_inverse type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD::SERVICES_UCS</_hsubsystem>
+					<_hfilename type="a">.\SERVICE_UCS_COLLECT_AND_PROCESS_DATA.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::SERVICES_UCS::SERVICE_UCS_COLLECT_AND_PROCESS_DATA</_hsubsystem>
 					<_hclass type="a">GetSensingData</_hclass>
 					<_hname type="a">itsSensors</_hname>
 					<_hid type="a">GUID d753a0a9-3fd4-432f-b8cf-b904b1a81ac8</_hid>
@@ -4386,8 +4542,8 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD::SERVICES_UCS</_hsubsystem>
+					<_hfilename type="a">.\SERVICE_UCS_PREDICT_DISASTER.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::SERVICES_UCS::SERVICE_UCS_PREDICT_DISASTER</_hsubsystem>
 					<_hname type="a">GiveDisasterPrediction</_hname>
 					<_hid type="a">GUID 593f46f9-6e8d-4af1-9551-abc2f57f9afd</_hid>
 				</IClassifierHandle>
@@ -4395,8 +4551,8 @@
 			<_inverse type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD::SERVICES_UCS</_hsubsystem>
+					<_hfilename type="a">.\SERVICE_UCS_PREDICT_DISASTER.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::SERVICES_UCS::SERVICE_UCS_PREDICT_DISASTER</_hsubsystem>
 					<_hclass type="a">GiveDisasterPrediction</_hclass>
 					<_hname type="a">itsDashboard</_hname>
 					<_hid type="a">GUID 5815c449-5ab7-4d19-a48c-076e7be3adae</_hid>
@@ -4527,8 +4683,8 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD::SERVICES_UCS</_hsubsystem>
+					<_hfilename type="a">.\SERVICE_UCS_PREDICT_DISASTER.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::SERVICES_UCS::SERVICE_UCS_PREDICT_DISASTER</_hsubsystem>
 					<_hname type="a">GiveDisasterPrediction</_hname>
 					<_hid type="a">GUID 593f46f9-6e8d-4af1-9551-abc2f57f9afd</_hid>
 				</IClassifierHandle>
@@ -4536,8 +4692,8 @@
 			<_inverse type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD::SERVICES_UCS</_hsubsystem>
+					<_hfilename type="a">.\SERVICE_UCS_PREDICT_DISASTER.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::SERVICES_UCS::SERVICE_UCS_PREDICT_DISASTER</_hsubsystem>
 					<_hclass type="a">GiveDisasterPrediction</_hclass>
 					<_hname type="a">itsApp</_hname>
 					<_hid type="a">GUID ddfc042e-f672-46a2-b298-f73ee7a698d3</_hid>
@@ -4556,8 +4712,8 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD::SERVICES_UCS</_hsubsystem>
+					<_hfilename type="a">.\SERVICE_UCS_SEND_NOTIFICATION.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::SERVICES_UCS::SERVICE_UCS_SEND_NOTIFICATION</_hsubsystem>
 					<_hname type="a">SendAlertNotification</_hname>
 					<_hid type="a">GUID 6c9617cb-4ac2-4aa0-b996-ceb42bf709b1</_hid>
 				</IClassifierHandle>
@@ -4565,8 +4721,8 @@
 			<_inverse type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD::SERVICES_UCS</_hsubsystem>
+					<_hfilename type="a">.\SERVICE_UCS_SEND_NOTIFICATION.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::SERVICES_UCS::SERVICE_UCS_SEND_NOTIFICATION</_hsubsystem>
 					<_hclass type="a">SendAlertNotification</_hclass>
 					<_hname type="a">itsApp</_hname>
 					<_hid type="a">GUID fa1d6e54-64a9-41b8-be39-1f002039fa31</_hid>
@@ -4644,8 +4800,8 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD::SERVICES_UCS</_hsubsystem>
+					<_hfilename type="a">.\SERVICE_UCS_COLLECT_AND_PROCESS_DATA.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::SERVICES_UCS::SERVICE_UCS_COLLECT_AND_PROCESS_DATA</_hsubsystem>
 					<_hname type="a">GetSensingData</_hname>
 					<_hid type="a">GUID 2d2aab70-6694-463c-8917-ee0239c196b1</_hid>
 				</IClassifierHandle>
@@ -4653,8 +4809,8 @@
 			<_inverse type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD::SERVICES_UCS</_hsubsystem>
+					<_hfilename type="a">.\SERVICE_UCS_COLLECT_AND_PROCESS_DATA.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::SERVICES_UCS::SERVICE_UCS_COLLECT_AND_PROCESS_DATA</_hsubsystem>
 					<_hclass type="a">GetSensingData</_hclass>
 					<_hname type="a">itsAircraft</_hname>
 					<_hid type="a">GUID 4c5f5289-4331-4f7f-8702-3e26ef7bd2f7</_hid>
@@ -4732,8 +4888,8 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD::SERVICES_UCS</_hsubsystem>
+					<_hfilename type="a">.\SERVICE_UCS_SEND_DATA_TO_EXTERNAL_SYSTEMS.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::SERVICES_UCS::SERVICE_UCS_SEND_DATA_TO_EXTERNAL_SYSTEMS</_hsubsystem>
 					<_hname type="a">GetDesiredData</_hname>
 					<_hid type="a">GUID 535f8935-5e88-48a0-88eb-2065ea5209b4</_hid>
 				</IClassifierHandle>
@@ -4741,8 +4897,8 @@
 			<_inverse type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD::SERVICES_UCS</_hsubsystem>
+					<_hfilename type="a">.\SERVICE_UCS_SEND_DATA_TO_EXTERNAL_SYSTEMS.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::SERVICES_UCS::SERVICE_UCS_SEND_DATA_TO_EXTERNAL_SYSTEMS</_hsubsystem>
 					<_hclass type="a">GetDesiredData</_hclass>
 					<_hname type="a">itsData_Consumer</_hname>
 					<_hid type="a">GUID b33f3ee6-cd8f-4366-bda6-1d767dddae4c</_hid>
@@ -4820,8 +4976,8 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD::SERVICES_UCS</_hsubsystem>
+					<_hfilename type="a">.\SERVICE_UCS_SEND_NOTIFICATION.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::SERVICES_UCS::SERVICE_UCS_SEND_NOTIFICATION</_hsubsystem>
 					<_hname type="a">SendAlertNotification</_hname>
 					<_hid type="a">GUID 6c9617cb-4ac2-4aa0-b996-ceb42bf709b1</_hid>
 				</IClassifierHandle>
@@ -4829,8 +4985,8 @@
 			<_inverse type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD::SERVICES_UCS</_hsubsystem>
+					<_hfilename type="a">.\SERVICE_UCS_SEND_NOTIFICATION.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD::SERVICES_UCS::SERVICE_UCS_SEND_NOTIFICATION</_hsubsystem>
 					<_hclass type="a">SendAlertNotification</_hclass>
 					<_hname type="a">itsOrganization</_hname>
 					<_hid type="a">GUID 3d7749e4-b10c-4cc5-83f3-86ee77f690d8</_hid>
